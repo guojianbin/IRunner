@@ -1,0 +1,10 @@
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\bin\Debug\TestBuilder.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\TestBuilder.IceTextBuilder.resources
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\TestBuilder.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\TestBuilder.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\TestBuilder.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\bin\Debug\TestBuilder.dll
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\TestBuilder\obj\Debug\TestBuilder.dll

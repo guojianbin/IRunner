@@ -1,0 +1,199 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0C10BA2B-69F0-4F14-9A45-29D00374E27E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IRunner</RootNamespace>
+    <AssemblyName>IRunner</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.60.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AutoRunHelper.cs" />
+    <Compile Include="Common\ConvertHelper.cs" />
+    <Compile Include="Common\DirFile.cs" />
+    <Compile Include="Common\FileIcon.cs" />
+    <Compile Include="Common\FileDirSearcher.cs" />
+    <Compile Include="FrmPluginManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPluginManage.Designer.cs">
+      <DependentUpon>FrmPluginManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRunCmd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRunCmd.Designer.cs">
+      <DependentUpon>FrmRunCmd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSearchOnline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchOnline.Designer.cs">
+      <DependentUpon>FrmSearchOnline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetting.Designer.cs">
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\HotKeyHelper.cs" />
+    <Compile Include="IceFormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceFormBase.Designer.cs">
+      <DependentUpon>IceFormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FileDirectoryEnumerable .cs" />
+    <Compile Include="Common\Processor.cs" />
+    <Compile Include="IRunnerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IRunnerMain.designer.cs">
+      <DependentUpon>IRunnerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPluginManage.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPluginManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRunCmd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRunCmd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchOnline.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSearchOnline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceFormBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IceFormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IRunnerMain.resx">
+      <DependentUpon>IRunnerMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextSearchBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TextSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PubData.cs" />
+    <Compile Include="Common\ShortCutHelper.cs" />
+    <Compile Include="Common\SQLiteHelper.cs" />
+    <Compile Include="Common\TextBoxRemind.cs" />
+    <Compile Include="SystemMenuHelper.cs" />
+    <Compile Include="TextSearchBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextSearchBox.Designer.cs">
+      <DependentUpon>TextSearchBox.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_46_001.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_46_006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_46_088.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif_46_046.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baidu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackToDesktop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AutoCleanUpDesktop.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ViewToMenu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastLinkMenu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PluginMenu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IcePluginLibrary\IcePluginLibrary\IcePluginLibrary.csproj">
+      <Project>{A9ACA0AB-8F48-4042-A7A1-F4806F04279F}</Project>
+      <Name>IcePluginLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

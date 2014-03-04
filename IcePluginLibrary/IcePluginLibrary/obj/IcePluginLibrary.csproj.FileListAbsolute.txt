@@ -1,0 +1,10 @@
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IcePluginLibrary\IcePluginLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IcePluginLibrary\IcePluginLibrary\bin\Debug\IcePluginLibrary.dll
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IcePluginLibrary\IcePluginLibrary\bin\Debug\IcePluginLibrary.pdb
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IcePluginLibrary\IcePluginLibrary\obj\Debug\IcePluginLibrary.dll
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IcePluginLibrary\IcePluginLibrary\obj\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\IcePluginLibrary\IcePluginLibrary\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\IcePluginLibrary\IcePluginLibrary\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\IcePluginLibrary\IcePluginLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\IcePluginLibrary\IcePluginLibrary\obj\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\IcePluginLibrary\IcePluginLibrary\obj\Debug\IcePluginLibrary.pdb

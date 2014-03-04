@@ -1,0 +1,37 @@
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\bin\Debug\IRunner.exe
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\bin\Debug\IRunner.pdb
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.IRunnerMain.resources
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.Properties.Resources.resources
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.csproj.GenerateResource.Cache
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.exe
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.pdb
+C:\Users\guojb.gz01\Documents\Visual Studio 2005\Projects\IRunner\IRunner\obj\Debug\IRunner.TextSearchBox.resources
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.exe
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.pdb
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\bin\Debug\IRunner.exe
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\bin\Debug\IRunner.pdb
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\ResolveAssemblyReference.cache
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.IRunnerMain.resources
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.Properties.Resources.resources
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.TextSearchBox.resources
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.csproj.GenerateResource.Cache
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\obj\Debug\IRunner.frmSetting.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.exe
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.frmSetting.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.IRunnerMain.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.TextSearchBox.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\bin\Debug\IRunner.exe
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\bin\Debug\IRunner.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\bin\Debug\System.Data.SQLite.dll
+D:\life\私人项目（禁止操作）\IRunner\IRunner\IRunner\bin\Debug\System.Data.SQLite.DLL
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.IceFormBase.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.FrmPluginManage.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.FrmRunCmd.resources
+E:\guojb文件夹汇总\IceProject\IRunner\IRunner\obj\Debug\IRunner.FrmSearchOnline.resources

@@ -1,0 +1,20 @@
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\bin\Debug\RViewer.exe
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\bin\Debug\RViewer.pdb
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.csproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.exe
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.pdb
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.frmRviewMain.resources
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.frmSetting.resources
+C:\Users\lenovo\Documents\Visual Studio 2005\Projects\RViewer\RViewer\obj\Debug\RViewer.Logo.ico
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.exe
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.pdb
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\bin\Debug\RViewer.exe
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\bin\Debug\RViewer.pdb
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.Logo.ico
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.frmRviewMain.resources
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.frmSetting.resources
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\RViewer\RViewer\obj\Debug\RViewer.csproj.GenerateResource.Cache

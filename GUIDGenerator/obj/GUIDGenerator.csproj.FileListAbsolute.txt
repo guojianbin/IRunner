@@ -1,0 +1,10 @@
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\GUIDGenerator.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\GUIDGenerator.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\bin\Debug\GUIDGenerator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\GUIDGenerator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\GUIDGenerator.FrmGUIDGen.resources
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\bin\Debug\GUIDGenerator.dll
+E:\guojb文件夹汇总\IceProject\IRunner\GUIDGenerator\obj\Debug\GUIDGenerator.dll

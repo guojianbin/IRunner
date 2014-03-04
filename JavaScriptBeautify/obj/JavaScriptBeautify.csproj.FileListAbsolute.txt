@@ -1,0 +1,14 @@
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.frmJsBeautify.resources
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\bin\Debug\JavaScriptBeautify.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\Interop.MSScriptControl.dll
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.csproj.ResolveComReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\bin\Debug\Interop.MSScriptControl.dll
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.FrmJSExecutor.resources
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\bin\Debug\JavaScriptBeautify.exe
+E:\guojb文件夹汇总\IceProject\IRunner\JavaScriptBeautify\obj\Debug\JavaScriptBeautify.exe

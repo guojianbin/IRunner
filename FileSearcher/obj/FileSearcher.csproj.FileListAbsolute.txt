@@ -1,0 +1,11 @@
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\FileSearcher.FrmFileSearch.resources
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\FileSearcher.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\FileSearcher.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\bin\Debug\FileSearcher.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\bin\Debug\System.Data.SQLite.dll
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\FileSearcher.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\bin\Debug\FileSearcher.dll
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\FileSearcher\obj\Debug\FileSearcher.dll

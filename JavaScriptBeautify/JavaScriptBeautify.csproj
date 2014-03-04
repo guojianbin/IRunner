@@ -1,0 +1,135 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8341907C-0ED1-4EE2-90AD-6A014163FCEB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JavaScriptBeautify</RootNamespace>
+    <AssemblyName>JavaScriptBeautify</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmJsBeautify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJsBeautify.Designer.cs">
+      <DependentUpon>frmJsBeautify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJSExecutor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJSExecutor.Designer.cs">
+      <DependentUpon>FrmJSExecutor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmJsBeautify.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmJsBeautify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJSExecutor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmJSExecutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScriptEngine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网.htm" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\base.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\common.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\globals.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\home.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\htmlformat.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\jsformat.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\jsformat2.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\logo1.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\menu.js" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T1.htm" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T1_files\T1_468_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T2.htm" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T2_files\T2_760_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T3.htm" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T3_files\T3-1_234_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T3_files\T3-2_234_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T3_files\T3-3_234_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T3_files\T3-4_234_60.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T4.htm" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\T4_files\T4_250_250.gif" />
+    <Content Include="WebFile\JavaScript-HTML格式化工具_站长工具_我拉网_files\toolsite.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSScriptControl">
+      <Guid>{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IcePluginLibrary\IcePluginLibrary\IcePluginLibrary.csproj">
+      <Project>{A9ACA0AB-8F48-4042-A7A1-F4806F04279F}</Project>
+      <Name>IcePluginLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

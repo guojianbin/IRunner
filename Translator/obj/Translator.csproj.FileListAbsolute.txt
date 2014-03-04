@@ -1,0 +1,10 @@
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\Translator.IceTranslate.resources
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\Translator.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\Translator.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\bin\Debug\Translator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\Translator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\bin\Debug\Translator.dll
+E:\guojb文件夹汇总\IceProject\IRunner\Translator\obj\Debug\Translator.dll

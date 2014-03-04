@@ -1,0 +1,16 @@
+ping www.baidu.com
+www.baidu.com
+cmd
+google
+ping www.baidu.com -t
+notepad
+regedit
+ping gzs-eccrm01
+ping gzs-crm01
+services.msc
+mstsc
+notepad2
+NOtepad
+ping gzs-crm01 -t
+noted
+MSCONFIG

@@ -1,0 +1,109 @@
+if(val1=='EVENT_LOGIN_SUCCESS')
+{
+    //alert('登陆成功');
+	document.getElementById("lblCurrentCalloutState").innerText="登陆成功";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='EVENT_LOGOUT_SUCCESS')
+{
+    //alert('登出成功');
+	document.getElementById("lblCurrentCalloutState").innerText="登出成功";
+    document.getElementById("btnCallLoginout").disabled="disabled";
+	document.getElementById("btnCallReset").disabled="disabled";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='CA_CALL_EVENT_TP_DISCONNECT')
+{
+    //alert('断开连接');
+	document.getElementById("lblCurrentCalloutState").innerText="断开连接";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="";
+}
+else if(val1=='EVENT_CC_SUCCESS')
+{
+    //alert('呼叫稍后');
+	document.getElementById("lblCurrentCalloutState").innerText="呼叫稍后";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='CA_CALL_EVENT_OUTBOUND_ALERTING_TP')
+{
+    //alert('正在呼叫');
+	document.getElementById("lblCurrentCalloutState").innerText="正在呼叫";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='CA_CALL_EVENT_OUTBOUND_CONNECTED_TP')
+{
+    //alert('正在接通');
+	document.getElementById("lblCurrentCalloutState").innerText="正在接通";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='AGENTSTATUS_ACW')
+{
+    //alert('正在挂断');
+	document.getElementById("lblCurrentCalloutState").innerText="正在挂断";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="";
+}
+
+else if(val1=='AGENTSTATUS_NOTREADY')
+{
+    //alert('正在置忙');
+	document.getElementById("lblCurrentCalloutState").innerText="正在置忙";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="";
+	document.getElementById("btnCallNotReady").disabled="disabled";
+}
+else if(val1=='AGENTSTATUS_READY')
+{
+    //alert('正在置闲');
+	document.getElementById("lblCurrentCalloutState").innerText="正在置闲";
+    document.getElementById("btnCallLoginout").disabled="";
+	document.getElementById("btnCallReset").disabled="";
+	document.getElementById("btnCallouting").disabled="disabled";
+	document.getElementById("btnCallHangup").disabled="disabled";
+	document.getElementById("btnCallLogin").disabled="disabled";
+	document.getElementById("btnCallReady").disabled="disabled";
+	document.getElementById("btnCallNotReady").disabled="";
+}

@@ -1,0 +1,173 @@
+ 
+    <asp:Panel id ="pnlLog" runat="server" GroupingText="日志管理" Width="900">
+    
+        <div class="divcomposing">
+            <table cellspacing="0" cellpadding="2" border="0" style="width: 900px">
+                <tr style="margin:2px;">
+                    <td style="text-align: right; font-size:13px;" class="style4">
+                        查询日期：
+                    </td>
+                    <td style="text-align: right; font-size: 13px;" class="style5">
+                        &nbsp;<asp:DropDownList ID="ddlYearLog" runat="server">
+                            <asp:ListItem>2012</asp:ListItem>
+                            <asp:ListItem Selected="True">2013</asp:ListItem>
+                        </asp:DropDownList>
+                        年<asp:DropDownList ID="ddlMonthLog" runat="server">
+                            <asp:ListItem>01</asp:ListItem>
+                            <asp:ListItem>02</asp:ListItem>
+                            <asp:ListItem>03</asp:ListItem>
+                            <asp:ListItem>04</asp:ListItem>
+                            <asp:ListItem>05</asp:ListItem>
+                            <asp:ListItem>06</asp:ListItem>
+                            <asp:ListItem>07</asp:ListItem>
+                            <asp:ListItem>08</asp:ListItem>
+                            <asp:ListItem>09</asp:ListItem>
+                            <asp:ListItem>10</asp:ListItem>
+                            <asp:ListItem>11</asp:ListItem>
+                            <asp:ListItem>12</asp:ListItem>
+                            <asp:ListItem Selected="True" Value="0">请选择</asp:ListItem>
+                        </asp:DropDownList>
+                        月 至 &nbsp;<asp:DropDownList ID="ddlEndYearLog" runat="server">
+                            <asp:ListItem>2012</asp:ListItem>
+                            <asp:ListItem  Selected="True">2013</asp:ListItem>
+                        </asp:DropDownList>
+                        年<asp:DropDownList ID="ddlEndMonthLog" runat="server">
+                            <asp:ListItem>01</asp:ListItem>
+                            <asp:ListItem>02</asp:ListItem>
+                            <asp:ListItem>03</asp:ListItem>
+                            <asp:ListItem>04</asp:ListItem>
+                            <asp:ListItem>05</asp:ListItem>
+                            <asp:ListItem>06</asp:ListItem>
+                            <asp:ListItem>07</asp:ListItem>
+                            <asp:ListItem>08</asp:ListItem>
+                            <asp:ListItem>09</asp:ListItem>
+                            <asp:ListItem>10</asp:ListItem>
+                            <asp:ListItem>11</asp:ListItem>
+                            <asp:ListItem>12</asp:ListItem>
+                            <asp:ListItem Selected="True" Value="0">请选择</asp:ListItem>
+                        </asp:DropDownList>
+                        月&nbsp;&nbsp;
+                    </td>
+                    <td style="text-align: left; font-size:13px;" class="style3">
+                        板块楼盘：
+                    </td>
+                    <td class="tdsearch">
+                        <uc2:User_AutoComplete ID="ddlBuildingLog" runat="server" />
+                    </td>
+                    
+                    <td style="text-align: left;">
+                        <asp:Button ID="btnSearchLog" class="btndefault" runat="server" Text="查询"  
+                            Font-Size="13px" onclick="btnSearchLog_Click"  />
+                    </td>
+                    <%--<td style="text-align: left;" style="margin:0;">
+                        <asp:Button ID="btnSearchDiff" class="btndefault2" runat="server" Text="查询不同"  
+                            Font-Size="13px" onclick="btnSearchDiff_Click"  />
+                    </td>--%>
+                </tr>
+                <tr>
+                    <td   style="text-align: right; font-size:13px;" class="style4">操作人名称：</td>
+                    <td >
+                        <asp:TextBox ID="txtEmployee" runat="server"></asp:TextBox></td>
+                        
+                      <td></td>
+                      <td >
+                        
+                      </td>
+                      <td></td>
+                </tr>
+            </table>
+        </div>
+        
+        
+        <div id="Div2">
+            <asp:DataGrid ID="dgLog" runat="server" AutoGenerateColumns="False" BackColor="Black"
+                BorderStyle="Dotted" BorderWidth="0px" CellPadding="1" CellSpacing="1"
+                MiniCss="FixedBottomRowMini" NormalCss="FixedBottomRow"
+                SelectedItemStyle-BackColor="#FFFFFF" TableHeight="570" AllowPaging="True" AllowSorting="True"
+                PageSize="10" Font-Size="13px" DataKeyField="Log_ID"
+                 >
+                <PagerStyle Mode="NumericPages" Visible="False" />
+                <AlternatingItemStyle BackColor="#E1F0ED"/>
+                <ItemStyle BackColor="#FFFFFF" CssClass="td" />
+                <HeaderStyle BackColor="#91C8DF" HorizontalAlign="Center" Wrap="False" />
+                <FooterStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                    Font-Underline="False" HorizontalAlign="Center" />
+                <Columns>
+                    <asp:TemplateColumn>
+                      <HeaderTemplate>序号</HeaderTemplate>
+                      <ItemStyle HorizontalAlign="Center" Width="50px" />
+                      <ItemTemplate>
+                       <%# this.dgLog.CurrentPageIndex * this.dgLog.PageSize + Container.ItemIndex + 1%>
+                      </ItemTemplate>
+                     </asp:TemplateColumn>
+                      <asp:BoundColumn DataField="Log_EmployeeID" HeaderText="操作人工号">
+                        <HeaderStyle HorizontalAlign="Center" Wrap="False" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                            Font-Underline="False" HorizontalAlign="Center" Width="150px" Wrap="False" />
+                    </asp:BoundColumn>
+                     <asp:BoundColumn DataField="Log_EmployeeName" HeaderText="操作人名称">
+                        <HeaderStyle HorizontalAlign="Center" Wrap="False" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                            Font-Underline="False" HorizontalAlign="Center" Width="150px" Wrap="False" />
+                    </asp:BoundColumn>
+                     <asp:BoundColumn DataField="Log_OperateTime" HeaderText="操作时间">
+                        <HeaderStyle HorizontalAlign="Center" Wrap="False" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                            Font-Underline="False" HorizontalAlign="Center" Width="150px" Wrap="False" />
+                    </asp:BoundColumn>
+                    <%-- <asp:BoundColumn DataField="Log_OperateModuleMainID" HeaderText="操作记录">
+                        <HeaderStyle HorizontalAlign="Center" Wrap="False" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                            Font-Underline="False" HorizontalAlign="Center" Width="150px" Wrap="False" />
+                    </asp:BoundColumn>--%>
+                    <asp:TemplateColumn HeaderText="操作楼盘">
+                        <ItemStyle HorizontalAlign="Center" />
+                        <ItemTemplate>
+                       <%-- <%# GetOperateName(Eval("Log_OperateID").ToString().Trim())%>--%>
+                         <%-- <a onclick="javascript:window.showModalDialog('ShowBuildingHR.aspx?BuildingHRID=<%# Eval("Log_OperateModuleMainID").ToString().Trim()%>&BuildingHRXH=<%# this.dgLog.CurrentPageIndex * this.dgLog.PageSize + Container.ItemIndex + 1%>',
+                          'newwin','dialogHeight:300px;dialogWidth:350px;edge:Raised;center:Yes;help:Yes;resizable:Yes;status:Yes;')"; href="#"  >
+                        <asp:Label ID="lblBuilding" runat="server" Text='<%# GetOperateBuilding(Eval("Log_OperateModuleMainID").ToString().Trim())%>'></asp:Label>
+                        
+                        </a>--%>
+                        </ItemTemplate>
+                    </asp:TemplateColumn>
+                 <%-- <asp:BoundColumn DataField="Log_OperateID" HeaderText="操作方式">
+                        <HeaderStyle HorizontalAlign="Center" Wrap="False" />
+                        <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+                            Font-Underline="False" HorizontalAlign="Center" Width="150px" Wrap="False" />
+                    </asp:BoundColumn>--%>
+                   
+                     <asp:TemplateColumn HeaderText="操作方式" ItemStyle-BackColor="White">
+                        <ItemStyle HorizontalAlign="Center" />
+                        <ItemTemplate>
+                        <asp:Image id="Image1" ImageUrl='<%# GetOperateName(Eval("Log_OperateID").ToString().Trim())%>' runat="server"></asp:Image>    
+                        <%--<asp:Label ID="lblOperateWay" runat="server" Text='<%# GetOperateName(Eval("Log_OperateID").ToString().Trim())%>'></asp:Label>--%>
+                        </ItemTemplate>
+                    </asp:TemplateColumn>
+                </Columns>
+                <SelectedItemStyle BackColor="White" />
+            </asp:DataGrid>
+            
+            <div class="clear" style="width:805px;">
+                &nbsp
+            </div>
+            <div id="Div3" style="width:800px;">
+            <table style="width:700px;">
+                <tr>
+                    <td style="text-align: left;">
+                     <uc1:User_PageNavigation ID="upnLog" runat="server" />
+                    </td>
+                    <td style="text-align: right; font-size:13px;">
+                        添加<asp:Image id="Image1" ImageUrl="~/ImagesNew/insert.png" runat="server"></asp:Image> 
+                       更新<asp:Image id="Image2" ImageUrl="~/ImagesNew/update.png" runat="server"></asp:Image>    
+                        删除<asp:Image id="Image3" ImageUrl="~/ImagesNew/delete.png" runat="server"></asp:Image>    
+                         更新结束日期<asp:Image id="Image4" ImageUrl="~/ImagesNew/updateTime.png" runat="server"></asp:Image>  
+                    </td>
+                </tr>
+            </table>
+               
+                   
+            </div>
+        </div>
+        
+</asp:Panel>

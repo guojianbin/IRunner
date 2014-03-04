@@ -1,0 +1,12 @@
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\bin\Debug\DataBaseOperator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\ResolveAssemblyReference.cache
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.Properties.Resources.resources
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.csproj.GenerateResource.Cache
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.FrmDBOperate.resources
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.FrmConfigDBConnection.resources
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.FrmShowAllDbName.resources
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\bin\Debug\IcePluginLibrary.dll
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\bin\Debug\IcePluginLibrary.pdb
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\bin\Debug\DataBaseOperator.dll
+E:\guojb文件夹汇总\IceProject\IRunner\DataBaseOperator\obj\Debug\DataBaseOperator.dll

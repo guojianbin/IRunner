@@ -1,0 +1,59 @@
+:Base MSScript.hlp>Langref
+:Title Microsoft Script 控件
+1 有关的概念
+1 使用 Microsoft Script  控件=scconUsingMicrosoftScriptControl
+2 向  Script  控件添加对象模型=scconAddingRuntimeFunctionalityToScriptControl
+3 创建简单  Script  工程=scconCreatingSimpleScriptProject
+2 使用  Modules  集合=scconUsingModulesCollection
+1 常数
+2 ScriptControl 常数=sccstScriptControl
+1 错误信息
+2 不能执行；正在运行脚本=scmsgCantExecute
+2 不能设置 UseSafeSubset 属性=scmsgCantSetUseSafeSubset
+2 执行脚本超时=scmsgScriptTimedOut
+2 未设置语言属性=scmsgLanguagePropertyNotSet
+2 选定的脚本引擎不支持该成员=scmsgMemberNotSupported
+2 对象不再有效=scmsgObjectIsNoLongerValid
+1 事件
+2 Error 事件 (Script  控件)=scevtError
+2 Timeout Event (Script  控件)=scevtTimeout
+1 方法
+2 Add  方法 (Script  控件)=scmthAdd
+2 AddCode  方法 (Script  控件)=scmthAddCode
+2 AddObject  方法 (Script  控件)=scmthAddObject
+2 Clear  方法 (Script  控件)=scmthClear
+2 Eval  方法 (Script  控件)=scmthEval
+2 ExecuteStatement  方法=scmthExecuteStatement
+2 Item  方法 (Script  控件)=scmthItem
+2 Reset  方法 (Script  控件)=scmthReset
+2 Run  方法 (Script  控件)=scmthRun
+1 对象
+2 Error  对象 (Script  控件)=scobjError
+2 Module  对象 (Script 控件)=scobjModule
+2 Modules  对象 (Script  控件)=sccolModules
+2 Procedure  对象 (Script  控件)=scobjProcedure
+2 Procedures  集合 (Script  控件)=sccolProcedures
+2 ScriptControl  对象=scobjScriptControl
+1 属性
+2 AllowUI 属性 (Script  控件)=scproAllowUI
+2 CodeObject 属性 (Script  控件)=scproCodeObject
+2 Column 属性 (Script  控件)=scproColumn
+2 Count 属性 (Script  控件)=scproCount
+2 Description 属性 (Script  控件)=scproDescription
+2 Error 属性 (Script  控件)=scproError
+2 HasReturnValue 属性 (Script  控件)=scproHasReturnValue
+2 HelpContext 属性 (Script  控件)=scproHelpContext
+2 HelpFile 属性 (Script  控件)=scproHelpFile
+2 Language 属性 (Script  控件)=scproLanguage
+2 Line 属性 (Script  控件)=scproLine
+2 Modules 属性 (Script  控件)=scproModules
+2 Name 属性 (Script  控件)=scproName
+2 NumArgs 属性 (Script  控件)=scproNumArgs
+2 Number 属性 (Script  控件)=scproNumber
+2 Procedures 属性 (Script  控件)=scproProcedures
+2 SitehWnd 属性 (Script  控件)=scproSitehWnd
+2 Source 属性 (Script  控件)=scproSource
+2 State 属性 (Script  控件)=scproState
+2 Text 属性 (Script  控件)=scproText
+2 Timeout 属性 (Script  控件)=scproTimeout
+2 UseSafeSubset 属性 (Script  控件)=scproUseSafeSubset
